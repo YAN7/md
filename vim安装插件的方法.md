@@ -49,7 +49,7 @@ filetype plugin on
 3. 在输入区，即左下角出现`done`字样则表示安装成功
 4. 输入`:wq`保存推出则大功告成！
 
-#### 在mac上配置vim高亮
+## 在mac上配置vim高亮
 
 1. mac上用vim编辑是完全没有任何高亮的，打开任何文件都是白色字体，作为一个颜值控这怎么能忍？
 2. 首先在新建一个文件夹,将vim配色主题包clone下来`it clone git://github.com/altercation/solarized.git`，这是包括所有的配色方案的，如果只想用vim配色，可以clone这个[Vim respostor]y(https://github.com/altercation/vim-colors-solarized)  (我用的是这个)
@@ -96,4 +96,5 @@ let g:solarized_termtrans=1
 
 
 > [vim常用命令](http://blog.csdn.net/wklken/article/details/7533272)
+
 
