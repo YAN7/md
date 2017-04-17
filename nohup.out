@@ -1,0 +1,186 @@
+Gtk-Message: Failed to load module "pantheon-filechooser-module"
+
+(main.py:3242): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(main.py:3242): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(main.py:3242): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(main.py:3242): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3242): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+INFO:guake.guake_app:Logging configuration complete
+/usr/lib/python2.7/dist-packages/guake/guake_app.py:1785: GtkWarning: gtk_box_pack: assertion 'child->parent == NULL' failed
+  self.mainframe.pack_start(self.notebook, expand=True, fill=True, padding=0)
+Gtk-Message: Failed to load module "pantheon-filechooser-module"
+
+(main.py:3349): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(main.py:3349): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(main.py:3349): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(main.py:3349): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3349): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+INFO:guake.guake_app:Logging configuration complete
+/usr/lib/python2.7/dist-packages/guake/guake_app.py:1785: GtkWarning: gtk_box_pack: assertion 'child->parent == NULL' failed
+  self.mainframe.pack_start(self.notebook, expand=True, fill=True, padding=0)
+/usr/lib/python2.7/dist-packages/guake/guake_app.py:825: GtkWarning: IA__gtk_window_set_type_hint: assertion '!gtk_widget_get_mapped (GTK_WIDGET (window))' failed
+  self.window.set_type_hint(gtk.gdk.WINDOW_TYPE_HINT_DOCK)
+/usr/lib/python2.7/dist-packages/guake/guake_app.py:826: GtkWarning: IA__gtk_window_set_type_hint: assertion '!gtk_widget_get_mapped (GTK_WIDGET (window))' failed
+  self.window.set_type_hint(gtk.gdk.WINDOW_TYPE_HINT_NORMAL)
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/runpy.py", line 174, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/usr/lib/python2.7/dist-packages/guake/main.py", line 239, in <module>
+    exec_main()
+  File "/usr/lib/python2.7/dist-packages/guake/main.py", line 236, in exec_main
+    gtk.main()
+KeyboardInterrupt
+Gtk-Message: Failed to load module "pantheon-filechooser-module"
+
+(main.py:3468): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(main.py:3468): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(main.py:3468): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(main.py:3468): Gtk-WARNING **: Unable to locate theme engine in module_path: "pixmap",
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+
+(guake:3468): libglade-WARNING **: unknown attribute `swapped' for <signal>.
+INFO:guake.guake_app:Logging configuration complete
+/usr/lib/python2.7/dist-packages/guake/guake_app.py:1785: GtkWarning: gtk_box_pack: assertion 'child->parent == NULL' failed
+  self.mainframe.pack_start(self.notebook, expand=True, fill=True, padding=0)
+/usr/lib/python2.7/dist-packages/guake/guake_app.py:825: GtkWarning: IA__gtk_window_set_type_hint: assertion '!gtk_widget_get_mapped (GTK_WIDGET (window))' failed
+  self.window.set_type_hint(gtk.gdk.WINDOW_TYPE_HINT_DOCK)
+/usr/lib/python2.7/dist-packages/guake/guake_app.py:826: GtkWarning: IA__gtk_window_set_type_hint: assertion '!gtk_widget_get_mapped (GTK_WIDGET (window))' failed
+  self.window.set_type_hint(gtk.gdk.WINDOW_TYPE_HINT_NORMAL)
