@@ -35,6 +35,7 @@
 
 ##### svn diff filename 简写： svn di
 > 比较差异
-
 ##### svn mkdir filename/url
-> 创建纳入版本控制的新目录
+> 创建纳入版本控制的新目录,创建线上版本库的文件夹
+
+
