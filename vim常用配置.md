@@ -51,6 +51,7 @@ filetype plugin on
 
 ## 在mac上配置vim高亮
 
+
 1. mac上用vim编辑是完全没有任何高亮的，打开任何文件都是白色字体，作为一个颜值控这怎么能忍？
 2. 首先在新建一个文件夹,将vim配色主题包clone下来`it clone git://github.com/altercation/solarized.git`，这是包括所有的配色方案的，如果只想用vim配色，可以clone这个[Vim respostor]y(https://github.com/altercation/vim-colors-solarized)  (我用的是这个)
 3. 将`solarized.vim`复制到`~/.vim/colors`目录下，一般情况下是没有colors这个目录的，你需要先新建一个才能复制，否则会失败
@@ -96,5 +97,25 @@ let g:solarized_termtrans=1
 
 
 > [vim常用命令](http://blog.csdn.net/wklken/article/details/7533272)
+
+8. vim 设置高亮的方法
+
+在配置文件中设置（注意等号两边是没有空格的！）：
+```
+set sw=2 // 使用每层缩进的空格数
+set ts=2 // 编辑时一个tab占空格的数量
+```
+9. 设置vue语法高亮，其他非常规文件类型同理
+在打开该文件时在命令模式下输入
+> :set filetype=html
+
+但是这样这次打开文件都需要重新设置一遍很是麻烦所以可以在文件头部设置一下
+> \vim: ft=html\ ft是filetype的缩写
+
+### 在vim中粘帖代码缩进不变
+
+> 在粘帖前在命令模式下输入`:set paste`然后再粘帖就可以了，之后还要切换会正常模式`:set nopaste`
+
+
 
 
