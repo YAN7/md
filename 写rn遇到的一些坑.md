@@ -31,3 +31,18 @@
 #### rn中drawable和mipmap文件夹的区别
 
 - mipmap文件夹一般只用来放应用图标文件, drawable文件夹用来放应用内用到的静态资源图片
+- 安卓不同后缀代表的尺寸
+- drawable-mdpi 320 * 480
+- drawable-hdpi 480*800
+- drawable-xhdpi 720 * 1280
+- drawable-xxhdpi 1080 * 1920
+- drawable-xxxhdpi 1080+
+
+
+- iOS中图片带有@1x,@2x,@3x的意思
+- @1x 为非retina屏的iphone。iphone4以前，不包含4的手机需要使用这个标示。
+- @2x 为retina屏的iphone准备。iphone4/4s/5/5c/5s/6 使用该标示，最常用
+- @3x 专为iphone6p准备。iphone6 plus使用该标示。比较常用
+- 注意，当不想要某张图的时候，除了要从images.xcassets中删除以外，还得clean一遍，不然
+- UIImage imageNamed方法还是会取得以前的图片的。
+
