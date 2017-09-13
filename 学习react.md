@@ -21,6 +21,4 @@ onClick= { this.handleClick.bind(this) }
 
 3. 使用箭头函数.注意:此方法不能用于传参
 
-
-
 ### nginx 配置路径: `/etc/nginx/sites-enabled`
